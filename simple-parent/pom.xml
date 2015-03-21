@@ -5,9 +5,8 @@
   <version>1.0</version>
   <packaging>pom</packaging>
   <name>Multi-Spring Chapter Simple Parent Project</name>
-  
+    
   <modules>
   	<module>../simple-model</module>
   </modules>
-  
 </project>
