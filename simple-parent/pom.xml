@@ -35,17 +35,17 @@
 	    <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate</artifactId>
-	      <version>3.2.5.ga</version>
+	      <version>${hibernate.version}</version>
 	    </dependency>
 	    <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate-annotations</artifactId>
-	      <version>3.3.0.ga</version>
+	      <version>${hibernate-annotations.version}</version>
 	    </dependency>
 	     <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate-commons-annotations</artifactId>
-	      <version>3.3.0.ga</version>
+	      <version>${hibernate-annotations.version}</version>
 	    </dependency>
 	    <dependency>
 	      <groupId>org.apache.geronimo.specs</groupId>
