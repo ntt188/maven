@@ -3,8 +3,9 @@
   
   <parent>
   	<groupId>fr.tungnguyen.maven</groupId>
-  	<artifactId>simple-parent</artifactId>
+  	<artifactId>simple-parent</artifactId>  	
   	<version>1.0</version>
+  	<relativePath>../simple-parent/pom.xml</relativePath>
   </parent>  
   <artifactId>simple-model</artifactId>
   <packaging>jar</packaging>
