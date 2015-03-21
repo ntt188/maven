@@ -11,8 +11,7 @@
   	<hibernate-annotations.version>3.3.0.ga</hibernate-annotations.version>
   </properties>
   
-    
-  <modules>
+   <modules>
   	<module>../simple-model</module>
   	<module>../simple-persist</module>
   	<module>../simple-weather</module>
@@ -24,17 +23,17 @@
 	    <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate</artifactId>
-	      <version>${hibernate.version}</version>
+	      <version>3.2.5.ga</version>
 	    </dependency>
 	    <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate-annotations</artifactId>
-	      <version>${hibernate-annotations.version}</version>
+	      <version>3.3.0.ga</version>
 	    </dependency>
 	     <dependency>
 	      <groupId>org.hibernate</groupId>
 	      <artifactId>hibernate-commons-annotations</artifactId>
-	      <version>${hibernate-annotations.version}</version>
+	      <version>3.3.0.ga</version>
 	    </dependency>
 	    <dependency>
 	      <groupId>org.apache.geronimo.specs</groupId>
@@ -51,11 +50,6 @@
 	  		<artifactId>junit</artifactId>
 	  		<version>4.12</version>
 	  	</dependency>
-	  	<dependency>
-	      <groupId>${project.groupId}</groupId>
-	      <artifactId>simple-model</artifactId>
-	      <version>${project.version}</version>
-	    </dependency>
 	    <dependency>
 	      <groupId>log4j</groupId>
 	      <artifactId>log4j</artifactId>
@@ -97,5 +91,6 @@
            <version>1.8.0.7</version>
          </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement> 
+ 
 </project>
