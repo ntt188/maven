@@ -8,5 +8,7 @@
     
   <modules>
   	<module>../simple-model</module>
+  	<module>../simple-persist</module>
+  	<module>../simple-weather</module>
   </modules>
 </project>
